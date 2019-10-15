@@ -1,0 +1,82 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: lightgrey;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.hero {
+  max-width: 85%;
+  height: auto;
+  vertical-align: middle;
+  border-left: solid 5px lightgrey;
+}
+
+.sidebar {
+  width: 15%;
+  height: auto;
+}
+
+.num {
+  height: 25%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/stalker4.png);
+  background-position: center;
+}
+
+.num span {
+  font-size: 8vw;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+
+.sidebarPad {
+  background-color: white;
+  height: 75%;
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/stalker5.png);
+  background-position: bottom right;
+  border-top: 5px solid lightgrey;
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 85%;
+  padding: 10px;
+  padding-left: 30px;
+  border-left: solid 5px white;
+}
+
+h2, h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+h3 {
+  font-size: 3vw;
+  font-weight: 300;
+}
