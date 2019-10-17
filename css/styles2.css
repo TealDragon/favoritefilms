@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,500,600,700|Raleway:400,500,600,700&display=swap');
+
+
+body {
+  background-color: lightgrey;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.hero {
+  max-width: 71%;
+  height: auto;
+  vertical-align: middle;
+  border-left: solid 5px lightgrey;
+}
+
+.sidebar {
+  width: 29%;
+  height: auto;
+}
+
+.num {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  background-color: #282828;
+  background-position: center;
+  display: flex;
+  margin: auto;
+}
+
+.num span {
+  font-size: 10vw;
+  display: inline-block;
+  margin: auto; /* Important */
+}
+
+.content {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 71%;
+  padding: 10px;
+  padding-left: 30px;
+  border-left: solid 5px lightgrey;
+}
+
+/*
+.sidebarPad {
+  background-color: white;
+  height: 70%;
+  background-position: bottom right;
+  border-top: 5px solid lightgrey;
+  background-color: lightgrey;
+}
+*/
