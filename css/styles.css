@@ -5,6 +5,8 @@
 body {
   background-color: lightgrey;
   font-family: 'Raleway', sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
@@ -23,7 +25,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-weight: 400;
 }
 
@@ -47,21 +49,21 @@ h3 {
 }
 
 .num {
-  height: 30%;
+  height: 100%;
   text-align: center;
   display: inline-block;
   width: 100%;
   color: white;
   background-color: #282828;
   background-position: center;
+  display: flex;
+  margin: auto;
 }
 
 .num span {
-  font-size: 8vw;
+  font-size: 9vw;
   display: inline-block;
-  vertical-align: middle;
-  padding: 5px;
-  padding-top: 0px;
+  margin: auto; /* Important */
 }
 
 .content {
@@ -76,13 +78,3 @@ h3 {
   padding-left: 30px;
   border-left: solid 5px lightgrey;
 }
-
-/*
-.sidebarPad {
-  background-color: white;
-  height: 70%;
-  background-position: bottom right;
-  border-top: 5px solid lightgrey;
-  background-color: lightgrey;
-}
-*/
